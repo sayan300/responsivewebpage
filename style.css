@@ -1,0 +1,684 @@
+
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family:poppins,sans-serif;
+    color:rgba(12, 51, 2, 0.89);
+    margin: 0;
+    padding:0;
+}
+#heading{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(118, 218, 143, 0.664);
+}
+#headingnav{
+    height:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top:50px;
+   
+}
+#noblefinances{
+    font-size: 20px;
+    margin-left: 50px;
+}
+#services{
+    font-size: 15px;
+    
+    
+}
+#appointment{
+    border: none;
+    margin-left: 20px;
+    height: 40px;
+    width:175px;
+    border-radius: 100px;
+    color :white;
+    background-color: rgb(17, 73, 3);
+}
+#contact{
+    
+    height: 40px;
+    width:175px;
+    border-radius: 100px;
+    color :white;
+    background-color: rgb(17, 73, 3);
+}
+h1{
+   font-size: 50px;
+}
+
+#heading-right{
+    position: absolute;
+    top:250px;
+    height: 250px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#earthimg{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    background-image: url(image/earthimg.png);
+    background-size: cover;
+    
+    
+}
+
+#services-section{
+    height:300px;
+    width: 100%;
+    
+    text-align: center;
+    position: absolute;
+    top: 57rem;
+    font-size:50px;
+    
+}
+#schedule-call{
+    
+    height: 40px;
+    width:125px;
+    border-radius: 100px;
+    color :white;
+    background-color: rgb(17, 73, 3);
+}
+#schedule-call:hover{
+    background-color: rgba(192, 243, 227, 0.788);
+    color:black;
+}
+#text-preparation{
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+    height: 450px;
+    width:70%;
+    border-radius: 20px;
+    position: absolute;
+    top:90rem;
+    left:20px;
+    background-color: rgba(192, 243, 227, 0.788) ;
+    
+}
+#tax-text{
+    height:400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+#tax-button{
+    border: none;
+    height: 40px;
+    width:100px;
+    border-radius:10px;
+    color :white;
+    background-color: white;
+    color:black;
+    margin-right: 10px;
+    margin-top:70px;
+}
+#tax-button:hover{
+    background-color: rgb(129, 224, 105);;
+}
+#irs-full{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 120rem;
+    background-color: rgba(192, 243, 227, 0.788) ;
+    padding:50px;
+    height: 450px;
+    width:70%;
+    border-radius: 20px;
+    position: absolute;
+    top:12rem;
+    right:20px;
+    
+
+}
+#irs-text{
+    height:400px;
+    width: 500px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bookkeeping{
+    margin-top: 50rem;
+    padding:100px;
+    text-align:left;
+    background-color: rgba(192, 243, 227, 0.788) ;
+    height: 380px;
+    width:70%;
+    border-radius: 20px;
+    position: absolute;
+    top:125rem;
+    left:15px;
+    z-index: -1;
+}
+#bookkepping-text{
+    height:400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    position:absolute;
+    right:80px;
+}
+#graphic-desinger{
+    padding:20px 30px ;
+   
+    margin-top: 233rem;
+    margin-left: 125px;
+    height:110px;
+    width:310px;
+    background-color: rgb(20, 58, 19);
+    border-radius: 10px;
+}
+#hr{
+    padding:20px 30px;
+    color: white;
+    height: 2px;
+    width: 50px;
+}
+#clintheading{
+    font-size: 70px;
+    margin-top: 220rem;
+    text-align: center;
+}
+#clint-area{
+    margin-top: 130px;
+    margin-left: 100px;
+    height:600px;
+    width:1300px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#clint-img{
+    margin-top:50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    background-image: url(image/taylor.png);
+    background-size: cover;
+}
+#clint-details{
+    margin-left: 50px;
+}
+#left-side{
+   
+    display: flex;
+    height: 600px;
+    width:400px ;
+    flex-direction: column;
+    
+    
+}
+#div1{
+    padding :45px 20px;
+    
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    
+
+}
+#div1:hover{
+    background-color: rgb(27, 105, 17);
+}
+#div2{
+    padding :45px 20px;
+    
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    
+}
+#div2:hover{
+    background-color: rgb(27, 105, 17);
+}
+#div3{
+    padding :45px 20px;
+    
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    
+}
+#div3:hover{
+    background-color: rgb(27, 105, 17);
+}
+hr{
+    border: 1px solid rgb(6, 83, 10) ;
+}
+#img-middle{
+    height: 700px;
+    width: 100%;
+    background-image: url("image/Image_break_section.jpg");
+    background-size: cover;
+    
+}
+#middle-part{
+    margin-top: 50px;
+    height:300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#Smart-Finance{
+    text-align: start;
+    margin-left:30px;
+    margin-top: 50px;
+    font-size: 30px;
+    width: 500px;
+    
+    
+    
+}
+#smart-text{
+    margin-top: 50px;
+    /* margin-left:150px; */
+    font-size: 20px;
+    width: 700px;
+    
+    
+}
+.blank{
+    height:300px;
+    width: 2px;
+    background-color: rgb(26, 90, 26);
+    
+}
+#details{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    
+}
+#For-Freelancers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 300px;
+    width: 350px;
+    font-size: 20px;
+}
+#Fo-Families{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 300px;
+    width: 350px;
+    font-size: 20px;
+}
+#For-Small-Businesses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 350px;
+    font-size: 20px;
+}
+#built-plan{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;    
+    height:500px;
+    width:100%;
+}
+#text-area-outer{
+   
+   
+    height:400px;
+    width:650px;
+    background-color: rgb(22, 83, 20);
+    border-radius: 20px;
+}
+#text-area-inner{
+    margin-top:30px;
+    margin-left: 50px;
+    height:300px;
+    width:500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+#picture-area-outer{
+    height:400px;
+    width:600px;
+    
+    background-color: rgb(180, 226, 194);
+    border-radius: 20px;
+   
+}
+#picture-area-inner{
+    
+    margin-bottom: 150px;
+    height:500px;
+    width: 500px;
+    background-image: url(image/step.png);
+    background-size: cover;
+
+}
+#built-button{
+   
+    height: 40px;
+    width:100px;
+    border-radius:20px;
+    color :white;
+    background-color: white;
+    color:black;
+    margin-right: 50px;
+    margin-top:70px;
+}
+#built-button:hover{
+    background-color: rgb(27, 105, 17);
+}
+#declaration{
+    
+    height:100px;
+    width:100%;
+    text-align: center;
+}
+#conncet{
+    height: 50px;
+    width:250px;
+    border-radius:20px;
+    color :white;
+    background-color: white;
+    color:black;
+    margin-right: 50px;
+    margin-top:70px;
+}
+#conncet:hover{
+    background-color: rgb(27, 105, 17);
+}
+#footer{ 
+    display: flex;
+    flex-direction: column;
+    margin-top:300px;
+    height: 400px;
+    width: 100%;
+    background-color:rgb(15, 44, 11) ;
+}
+#upper-footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#appointement{
+    height: 50px;
+    width:250px;
+    border-radius:20px;
+    color :white;
+    background-color: white;
+    color:black;
+    margin-right: 50px;
+    
+
+}
+#appointement:hover{
+    background-color: rgb(27, 105, 17);
+}
+#lower-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+#tax-image{
+   
+    height: 300px;
+    width: 370px;
+    background-image: url(image/tax_img.png);
+    background-size: cover;
+    z-index: 3;
+}
+#irs-img{
+    
+    height: 300px;
+    width: 350px;
+    background-image: url(image/irs_img.png);
+    background-size: cover;
+    z-index: 1;
+}
+#bookkeeping-img{
+    position: absolute;
+    top:100px;
+    left:100px;
+    height: 300px;
+    width: 360px;
+    background-image: url(image/bookiping.png);
+    background-size: cover;
+    z-index: 1;
+}
+#tax-button-full{
+    height:100px;
+    width:500px;
+    display:flex;
+    justify-content: space-between;
+}
+#irs-button{
+    height:100px;
+    width:350px;
+    display:flex;
+    justify-content: space-between;
+}
+#tax-button-full{
+    height:100px;
+    width:350px;
+    display:flex;
+    justify-content: space-between;
+}
+
+@media  screen and (max-width: 799px){
+
+    #headingnav{
+        height:50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        margin-top:50px;
+    }
+    #heading{
+        width: 100%;
+        height: 900px;
+    }
+    #heading-right{
+        position: absolute;
+        top:600px;
+        height: 300px;
+    }
+    #tax-image{
+        position: absolute;
+        top:10px;
+        height:200px;
+        width:250px;
+        
+    }
+    #text-preparation{
+        margin-top: 150px;
+        height: 700px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+        
+    }
+    #tax-text{
+        height: 400px;
+        width: 100%;
+    }
+  
+    #irs-full{
+        margin-top: 145rem;
+       
+        height: 700px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #irs-img{
+        position: absolute;
+        top:10px;
+        height:200px;
+        width:250px;
+        
+    }
+    #irs-text{
+        height: 400px;
+        width: 100%;
+        align-items:center;
+        
+        
+    }
+    #bookkeeping{
+        margin-top: 90rem;
+        height: 700px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #bookkeeping-img{
+        position: absolute;
+        top:10px;
+        height:200px;
+        width:250px;
+    }
+    #bookkepping-text{
+        height: 400px;
+        width: 80%;
+        align-items:center;
+    }
+    #clintheading{
+    font-size: 70px;
+    margin-top: 280rem;
+    }
+    #clint-area{
+        height:1500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left:10px;
+    }
+    #blank{
+        display: none;
+    }
+    #left-side{
+        display: flex;
+        height: 300px;
+        width:100% ;
+        flex-direction:row;
+        justify-content: space-between;
+       
+    }
+    #div1{
+        height: 200px;
+        width:15vw;
+
+    }
+    #div2{
+        height: 200px;
+        width:15vw;
+       
+        
+    }
+    #div3{
+        height: 200px;
+        width:15vw;
+    }
+    #img-middle{
+        height: 300px;
+        width:100%;
+    }
+    #middle-part{
+        display: flex;
+        flex-direction: column;
+        height:700px;
+        width:100%;
+        text-align: center;
+        gap:50px;
+    }
+    #Smart-Finance{
+        height:100px;
+        width:100%;
+    }
+    #smart-text{
+        height:100px;
+        width:100%;
+    }
+    #details{
+        
+        height:700px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    #built-plan{
+    
+        margin-top: 70px;
+        height:900px;
+        width:100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between; 
+        
+        gap:50px;
+    }
+    #declaration{
+        margin-top: 50px;
+    }
+    #footer{
+        height:700px;
+        width:100%;
+        margin-top: 570px;
+        
+    }
+    #lower-footer{
+        height:200px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
